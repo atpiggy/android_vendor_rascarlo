@@ -19,5 +19,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=crespo BUILD_FINGERPRINT="google/ya
 # Inherit common build.prop overrides
 -include vendor/rascarlo/products/common_versions.mk
 
+-include vendor/rascarlo/products/common_drm_phone.mk
 -include vendor/samsung/crespo/device-vendor.mk
 -include vendor/samsung/crespo/BoardConfigVendor.mk
