@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for maguro.
-$(call inherit-product, device/samsung/maguro/full_crespo.mk)
+$(call inherit-product, device/samsung/crespo/full_crespo.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/rascarlo/products/common.mk)
